@@ -1,0 +1,210 @@
+body {
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 10000px; 
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
+    width: 100%;
+}
+
+.navbar-container {
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.navbar {
+    max-width: 1560px;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;  
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.orca-icon-img{
+    width: 50px;
+}
+
+.rr-left > *,
+.navbar-middle > * {
+    margin: 10px;
+}
+
+.navbar-middle {
+    display: flex;
+}
+
+a:link {
+    text-decoration: none;
+    color: #413a3a;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #29231f;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #413a3a;
+}
+
+a:active {
+    text-decoration: none;
+    color: #413a3a;
+}
+
+.navbar-middle div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-middle div:hover{
+    color: #413a3a;
+    cursor: pointer;
+}
+
+main{
+    font-family: "Crimson Text";
+}
+
+.background-img-div{
+    background-image: url(images/background-img.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.title-text{
+    position: absolute;
+    right: 150px;
+    bottom: 55px;
+}
+h1,
+h2,
+h3{
+    margin: 0;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 14px;
+    color: #413a3a;
+}
+
+.colored-bar{
+    background-color: #413a3a;
+    height: 30px;
+    margin-bottom: 80px;
+}
+.container-div{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.orca-definition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+.orca-definition h2,
+.titile-challenges{
+    color:#29231f;
+    font-size: 30px;
+}
+
+.orca-definition p{
+    color:#4B3E36;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-info{
+    font-family: "Source Sans Pro";
+}
+.table-orca-stats{
+    border:  none;
+    border-spacing: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 70px;
+    letter-spacing: 1px;
+}
+
+.table-orca-stats td{
+    border: 1px solid rgb(158, 143, 143);
+    padding: 10px;
+    text-transform: uppercase;
+}
+.colored-text-span{
+    color: rgb(33, 33, 99);
+    font-weight: 600;
+}
+.challenges-div{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+}
+
+.orca-challenges-img{
+ width: 400px;
+}
+
+.challenges-left{
+    position: relative;
+}
+
+.info-collum{
+    background-color: rgb(34, 15, 78);
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    width: 170px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 08px 0px;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.info-collum p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Source Sans Pro";
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.variables-span{
+    font-size: 30px;
+    color: #FCCB06;
+}
+.challenges-right{
+    width: 520px;
+}
+
+@media only screen and (max-width: 390px){
+    .navbar-container{
+        display: none;
+    }
+}
+
+
