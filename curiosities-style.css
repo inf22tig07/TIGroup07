@@ -1,0 +1,349 @@
+*{
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 950px ) {
+    .navbar-container{
+        display: none;
+    }
+    .container-grid-habitat{
+        display: none;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    } 
+
+    main{
+        padding: 0 20px;
+    }
+
+    .navbar-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 27px;
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .orca-icon,
+    .hamburger-icon{
+        width: 50px;
+    }
+
+    .container-slide{
+        padding: 60px 60px 0;
+        position: relative;
+    }
+
+    .curiosities-img1{
+        width: 100%;
+        border-radius: 6px;
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .orca-faq-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        padding-top: 50px;
+    }
+
+    .title-questions{
+        font-size: 15px;
+    }
+
+    .faq-title{
+        font-size: 2.5em;
+        font-weight: 600;
+        padding-top: 30px;
+    }
+
+    .single-question{
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        align-items: center;
+    }
+
+    .down-arrow{
+        border: none;
+        background-color: transparent;
+        font-size: 1em;
+    }
+
+    .respostaDiv{
+        width: 100%;    
+        padding-bottom: 40px;
+    }
+
+    .quiz-orcas{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        margin-top: 70px;
+        background-color: rgb(33,33,99);
+        color: #FCCB06;
+        font-family: 'Crimson Text', serif;
+        font-size: 15px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+
+    .top-h1-quiz{
+        padding: 30px 0;
+        font-size: 30px;
+    }
+
+    .answer-textbox,
+    .option-selector{
+        padding: 10px;
+        margin: 20px 0;
+        width: 300px;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .line-tittle{
+        margin: 5px 0;
+        border-color: #FCCB06;
+        width: 450px;
+    }
+
+    .div-options{
+        padding: 20px 0 10px 0;
+    }
+
+    label{
+        padding-left: 5px;
+    }
+
+    .check-aswer{
+        border: none;
+        border-radius: 0;
+    }
+
+    .grid-answers{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .left-section-quiz{
+        display: none;
+    }
+
+    .button-submit{
+        padding: 10px 60px;
+        border-radius: 4px;
+        border: none;
+        background-color: #FCCB06;
+        color: rgb(33,33,99);
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 950px ) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar-top{
+        display: none;
+    }
+    
+    body {
+        margin-top: 0;
+        }
+    
+    header{        
+        background-color: #fff;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    
+    .navbar-container {
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    }
+    .navbar {
+        max-width: 1560px;
+        padding: 20px;
+        font-size: 14px;
+        display: flex;  
+        align-items: center;
+        margin: auto;
+        justify-content: space-between;;
+    }
+    
+    .orca-icon-img{
+        width: 50px;
+    }
+    
+    .rr-left > *,
+    .navbar-middle > * {
+        margin: 10px;
+    }
+    
+    .navbar-middle {
+        display: flex;
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: #413a3a;
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color: #29231f;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #413a3a;
+    }
+    
+    a:active {
+        text-decoration: none;
+        color: #413a3a;
+    }
+    
+    .navbar-middle div {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+    .navbar-middle div:hover{
+        color: #413a3a;
+        cursor: pointer;
+    }
+
+    .container-slide{
+        padding: 100px 60px 0;
+        position: relative;
+    }
+
+    .curiosities-img1{
+        width: 100%;
+        border-radius: 6px;
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .orca-faq-div{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding-top: 100px;
+    }
+
+    .title-questions{
+        padding-bottom: 30px;
+    }
+
+    .faq-title{
+        font-size: 2.5em;
+        font-weight: 600;
+        padding-top: 30px;
+    }
+
+    .single-question{
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        width: 700px;
+        padding-top: 30px;
+    }
+
+    .down-arrow{
+        border: none;
+        background-color: transparent;
+        font-size: 1.5em;
+    }
+
+    .respostaDiv{
+        width: 700px;    
+        padding-bottom: 40px;
+    }
+
+    .quiz-orcas{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        margin-top: 80px;
+        background-color: rgb(33,33,99);
+        padding-bottom: 100px;
+    }
+
+    .quiz-orcas {
+        color: #FCCB06;
+        font-family: 'Crimson Text', serif;
+        font-size: 20px;
+    }
+
+    .answer-textbox,
+    .option-selector{
+        padding: 10px;
+        margin: 20px 0;
+        width: 300px;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .line-tittle{
+        margin: 5px 0;
+        border-color: #FCCB06;
+    }
+
+    .div-options{
+        padding: 20px 0 10px 0;
+    }
+
+    label{
+        padding-left: 5px;
+    }
+
+    .check-aswer{
+        border: none;
+        border-radius: 0;
+    }
+
+    .grid-answers{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .left-section-quiz{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .button-submit{
+        padding: 10px 60px;
+        border-radius: 4px;
+        border: none;
+        background-color: #FCCB06;
+        color: rgb(33,33,99);
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .top-quiz-mobile{
+        display: none;
+    }
+}
+

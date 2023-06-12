@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="curiosities-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="scripts/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="navbar-container">
+            <div class="navbar">
+                <div class="navbar-left">
+                    <a href="index.html">
+                        <img class="orca-icon-img" src="images/orca-icon.png" alt="orca icon">
+                    </a>
+                </div>
+                <div class="navbar-middle">
+                    <div><a href="solutions.html">solutions</a></div>
+                    <div><a href="habitat.html">habitat</a></div>
+                    <div><a href="curiosities.html">curiosities</a></div>
+                    <div><a href="#">lorem</a></div>
+                    <div><a href="#">ipsum</a></div>
+                </div>
+                <div class="navbar-right"></div>
+            </div>
+        </div>
+        <div class="navbar-top">
+            <img class="orca-icon" src="images/orca-icon.png" alt="">
+            <img class="hamburger-icon" src="images/hamburger-icon.png" alt="hamburger icon">
+        </div>
+    </header>
+    <main>
+        <div class="container-slide">
+            <img id="slide-img" class="curiosities-img1" src="images/curiosities-orca1.webp" alt="orca">
+        </div>       
+        <div class="orca-faq-div">
+            <div class="faq-title">Orca FAQs</div>
+            <div class="questions-div">
+                <div class="single-question">
+                    <div>
+                        <h2 class="title-questions">Are orcas really whales?</h2>
+                    </div>
+                    <div>
+                        <button class="down-arrow" onclick="
+                            mostrarOcultarResposta('respostaDiv1');">&#9660                        
+                        </button>
+                    </div>              
+                </div>
+                <div id="respostaDiv1" class="respostaDiv" style="display: none;">
+                    Despite being known as "killer whales", orcas are not true whales. They are the largest member of the dolphin family
+                </div>   
+                <hr>
+                <div class="single-question">
+                    <div>
+                        <h2 class="title-questions">How many teeth do orcas have?</h2>
+                    </div>
+                    <div>
+                        <button class="down-arrow" onclick="
+                            mostrarOcultarResposta('respostaDiv2');">&#9660
+                        </button>
+                    </div>              
+                </div>
+                <div id="respostaDiv2" class="respostaDiv" style="display: none;">
+                    Killer whales have between 40 and 56 large, sharp teeth. These teeth are used to grab and tear prey
+                </div>   
+                <hr>
+                <div class="single-question">
+                    <div>
+                        <h2 class="title-questions">Are orcas found all over the world?</h2>
+                    </div>
+                    <div>
+                        <button class="down-arrow" onclick="
+                            mostrarOcultarResposta('respostaDiv3');">&#9660                        
+                        </button>
+                    </div>              
+                </div>
+                <div id="respostaDiv3" class="respostaDiv" style="display: none;">
+                    Sim, as orcas são encontradas em todos os oceanos do mundo. Elas são altamente adaptáveis e têm uma ampla distribuição geográfica, desde as regiões polares até as águas tropicais
+                </div>   
+                <hr>
+                <div class="single-question">
+                    <div>
+                        <h2 class="title-questions">Do orcas have any specific vocalization patterns?</h2>
+                    </div>
+                    <div>
+                        <button class="down-arrow" onclick="
+                            mostrarOcultarResposta('respostaDiv4');">&#9660                        
+                        </button>
+                    </div>              
+                </div>
+                <div id="respostaDiv4" class="respostaDiv" style="display: none;">
+                    Yes, orcas are known for their complex vocal communication. Each group of killer whales has its own distinct set of calls, whistles and clicks, forming a dialect unique to that population
+                </div>   
+                <hr>
+                <div class="single-question">
+                    <div>
+                        <h2 class="title-questions">Are orcas socially structured?</h2>
+                    </div>
+                    <div>
+                        <button class="down-arrow" onclick="
+                            mostrarOcultarResposta('respostaDiv5');">&#9660                        
+                        </button>
+                    </div>              
+                </div>
+                <div id="respostaDiv5" class="respostaDiv" style="display: none;">
+                    Yes, orcas are highly social and live in groups called "pods". Each pod is made up of several orcas, led by the matriarch, usually the oldest female. These social structures play an important role in their interactions, hunting behaviors, and chick care                </div>   
+                <hr>
+            </div>
+        </div>
+        <div class="quiz-orcas">
+            <div class="top-quiz-mobile">
+                <h1 class="top-h1-quiz">Orca Quiz</h1>  
+            </div>
+            <div class="main-quiz">
+                <h2>what's the life expectancy of an onca?</h2>
+                <hr class="line-tittle">
+                <input class="answer-textbox" type="text"  placeholder="Answer">
+                <form>
+                    <h2>What is the primary type of prey for orcas?</h2>
+                    <hr class="line-tittle">
+                    <div class="grid-answers">
+                        <div class="div-options">
+                            <input class="check-aswer" type="radio" id="option1" name="options" value="option1">
+                            <label for="option1">fish</label>    
+                        </div>
+                        <div class="div-options">
+                            <input class="check-aswer" type="radio" id="option2" name="options" value="option2">
+                            <label for="option2">krill</label><br>
+                        </div>
+                        <div class="div-options">
+                            <input class="check-aswer" type="radio" id="option3" name="options" value="option3">
+                            <label for="option3">plankton</label><br>
+                        </div>
+                        <div class="div-options">
+                            <input class="check-aswer" type="radio" id="option1" name="options" value="option1">
+                            <label for="option1">shark</label>    
+                        </div>
+                      
+                        <div class="div-options">
+                            <input class="check-aswer" type="radio" id="option2" name="options" value="option2">
+                            <label for="option2">marine mammals</label><br>
+                        </div>
+                        <div class="div-options">
+                            <input class="check-aswer" type="radio" id="option3" name="options" value="option3">
+                            <label for="option3">Cephalopods</label><br>
+                        </div>
+                    </div>
+                  </form>
+                  <form action="#">
+                        <h2>What is the average size of an adult orca?</h2>
+                        <hr class="line-tittle">
+                        <select class="option-selector" name="places" id="lang">
+                            <option value="place1">2-4 meters</option>
+                            <option value="place2">5-7 meters</option>
+                            <option value="place3">8-10 meters</option>
+                            <option value="place4">11-13 meters</option>
+                            <option value="place5">14-16 meters</option>
+                        </select>
+                  </form>     
+            </div>
+            <div class="left-section-quiz">
+                <div class="title-quiz">
+                    <h1 class="title-h1-quiz">Orca Quiz</h1>
+                </div>
+                <div class="div-button-submit">
+                    <button class="button-submit">submit</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
