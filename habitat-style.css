@@ -1,0 +1,495 @@
+@media (max-width: 768px) {
+
+    .navbar-container{
+        display: none;
+    }
+    .container-grid-habitat{
+        display: none;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    } 
+
+    .navbar-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 27px;
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .orca-icon,
+    .hamburger-icon{
+        width: 50px;
+    }
+
+    .intro-habitat{
+        padding-top: 200px;
+        padding-bottom: 100px;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+
+    .habitat-titile{
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        padding-bottom: 10px;
+        display: inline-block;
+        
+    }
+
+    .main-frame{
+        margin: 0 11%;
+        border-left: 5px solid black;
+    }
+    .habitat-subtitle{
+        font-size: 12px;
+        line-height: 20px;
+        display: inline-block;
+    }
+
+    .container-habitats{
+        background-color: rgb(196, 192, 192);
+        padding: 0 5%;
+        padding-bottom: 100px;
+    }
+
+    .main-habitat{
+        width: 100%;
+        padding-top: 20%;
+        filter: brightness(0.8) drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.5));
+    }
+
+    .container-habitat-all{
+        position: relative;
+    }
+
+    .description-image{
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+        color: rgb(34, 15, 78);
+    }
+
+    .main-habitat-desktop{
+        display: none;
+    }
+    .habitat-name{
+        padding-bottom: 20px;
+        font-weight: 600;
+    }
+
+    .see-photos{
+        font-weight: 700;
+        color: rgb(34, 15, 78);
+        text-transform: uppercase;
+    }
+
+    .line-name{
+        color: black;
+    }
+
+    .other-habitats{
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+        
+    .img-other-habitats{
+        width: 100%;
+    }
+
+    .description-other-habitats{
+        background-color: #eee6e6;
+        height: 100px;
+    }
+
+    .habitat-name{
+        padding: 10px;
+    }
+
+    .habitat-description{
+        padding: 10px;
+    }
+}
+
+@media (min-width: 768px ) and (max-width:1120px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-top{
+        display: none;
+    }
+
+    .main-habitat{
+        display: none;
+    }
+
+    .br-text{
+        display: none;
+    }
+
+    body {
+        margin-top: 0;
+        font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+
+    header{        
+        background-color: #fff;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    
+
+    .navbar-container {
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    }
+    .navbar {
+        max-width: 1560px;
+        padding: 20px;
+        font-size: 14px;
+        display: flex;  
+        align-items: center;
+        margin: auto;
+        justify-content: space-between;;
+    }
+    
+    .orca-icon-img{
+        width: 50px;
+    }
+    
+    .rr-left > *,
+    .navbar-middle > * {
+        margin: 10px;
+    }
+    
+    .navbar-middle {
+        display: flex;
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: #413a3a;
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color: #29231f;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #413a3a;
+    }
+    
+    a:active {
+        text-decoration: none;
+        color: #413a3a;
+    }
+    
+    .navbar-middle div {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+    .navbar-middle div:hover{
+        color: #413a3a;
+        cursor: pointer;
+    }
+
+    main{
+        margin-top: 90px;
+    }
+
+    .intro-habitat{
+        padding: 8% 12% 8%;
+    }
+
+    .main-frame{
+        border-left: 5px solid black;
+        padding-left: 20px;
+    }
+
+    .habitat-subtitle{
+        font-size: 20px;
+        color: rgb(78, 75, 75);
+    }
+
+    .img-other-habitats{
+        width: 100px;
+    }
+
+    .container-habitats{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(196, 192, 192);
+        padding: 10% 20% 20%;
+        display: none;
+    }
+
+    .display-habitats-desktop{
+        display: flex;
+    }
+
+    .main-habitat-desktop{
+        width: 300px;
+    }
+
+    .img-other-habitats-top{
+        width: 200px;
+    }
+
+    /*grid com os diferentes habitats*/
+    .container-grid-habitat{
+        background-color: #a7a2a2;
+        padding: 100px 160px;
+    }
+
+    .grid-habitats-desktop{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:  2em 3em;
+    }
+
+
+    .habitat-section-main{
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        position: relative;
+    }
+
+    .title-main-habitat{
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .img-habitat-main{
+        width: 100%;
+    }
+
+    .img-sec-habitats{
+        width: 100%;
+    }
+
+    .img-sec-habitats:hover{
+        border-bottom: 3px solid yellow;
+    }
+
+    .habitat-sec-info{
+        background-color: #eee6e6;
+        height: 212px;
+        margin: 0;
+    }
+
+    .info-text-div{
+        top: 15px;
+        left: 15px;
+        padding: 15px;
+    }
+
+    .habitat-titile-grid{
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 1120px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-top{
+        display: none;
+    }
+
+    .main-habitat{
+        display: none;
+    }
+
+    .br-text{
+        display: none;
+    }
+
+    body {
+        margin-top: 0;
+        font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+
+    header{        
+        background-color: #fff;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    
+
+    .navbar-container {
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    }
+    .navbar {
+        max-width: 1560px;
+        padding: 20px;
+        font-size: 14px;
+        display: flex;  
+        align-items: center;
+        margin: auto;
+        justify-content: space-between;;
+    }
+    
+    .orca-icon-img{
+        width: 50px;
+    }
+    
+    .rr-left > *,
+    .navbar-middle > * {
+        margin: 10px;
+    }
+    
+    .navbar-middle {
+        display: flex;
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: #413a3a;
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color: #29231f;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #413a3a;
+    }
+    
+    a:active {
+        text-decoration: none;
+        color: #413a3a;
+    }
+    
+    .navbar-middle div {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+    .navbar-middle div:hover{
+        color: #413a3a;
+        cursor: pointer;
+    }
+
+    main{
+        margin-top: 90px;
+    }
+
+    .intro-habitat{
+        padding: 8% 12% 8%;
+    }
+
+    .main-frame{
+        border-left: 5px solid black;
+        padding-left: 20px;
+    }
+
+    .habitat-subtitle{
+        font-size: 20px;
+        color: rgb(78, 75, 75);
+    }
+
+    .img-other-habitats{
+        width: 100px;
+    }
+
+    .container-habitats{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(196, 192, 192);
+        padding: 10% 20% 20%;
+        display: none;
+    }
+
+    .display-habitats-desktop{
+        display: flex;
+    }
+
+    .main-habitat-desktop{
+        width: 300px;
+    }
+
+    .img-other-habitats-top{
+        width: 200px;
+    }
+
+    /*grid com os diferentes habitats*/
+    .container-grid-habitat{
+        background-color: #a7a2a2;
+        padding: 100px 160px;
+    }
+
+    .grid-habitats-desktop{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:  2em 3em;
+    }
+
+
+    .habitat-section-main{
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        position: relative;
+    }
+
+    .title-main-habitat{
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .img-habitat-main{
+        width: 100%;
+    }
+
+    .img-sec-habitats{
+        width: 100%;
+    }
+
+    .img-sec-habitats:hover{
+        border-bottom: 3px solid yellow;
+    }
+
+    .habitat-sec-info{
+        background-color: #eee6e6;
+        height: 212px;
+        margin: 0;
+    }
+
+    .info-text-div{
+        top: 15px;
+        left: 15px;
+        padding: 15px;
+    }
+
+    .habitat-titile-grid{
+        padding-bottom: 30px;
+    }
+}
+
+
