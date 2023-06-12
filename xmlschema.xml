@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="documento">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pagina" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="index"/>
+                            <xs:element type="xs:string" name="solutions"/>
+                            <xs:element type="xs:string" name="habitar"/>
+                            <xs:element type="xs:string" name="curiosities"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
