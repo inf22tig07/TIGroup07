@@ -10,12 +10,9 @@ Após a realizacao dos ficheiros foi realizada uma validação no w3c validator 
 ficheiros tinham erros e se a sua sintaxe estava correta
 
 
-Após a realizacao dos ficheiros foi realizada uma validação no w3c validator para verificar se os
-ficheiros tinham erros e se a sua sintaxe estava correta.
-
-
-
 ![Imgur](https://i.imgur.com/IQeA5sP.png)
 ![Imgur](https://i.imgur.com/LowPTby.png)
 ![Imgur](https://i.imgur.com/WMjBv64.png)
 ![Imgur](https://i.imgur.com/rU9XgFq.png)
+
+
